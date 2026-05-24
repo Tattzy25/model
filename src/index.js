@@ -95,9 +95,7 @@ async function handleFile(file, env) {
     },
   });
 
-  // ── Build public URL using your custom domain ──
-  // Replace with your actual R2 custom domain
-  const PUBLIC_DOMAIN = "model.digitalhustlelab.com";
+  const PUBLIC_DOMAIN = "model.tattty.com";
   const url = `https://${PUBLIC_DOMAIN}/${key}`;
 
   return new Response(
