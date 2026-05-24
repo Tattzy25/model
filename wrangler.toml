@@ -2,6 +2,6 @@ name = "model-upload"
 main = "src/index.js"
 compatibility_date = "2026-05-24"
 
-[r2_buckets]
+[[r2_buckets]]
 binding = "MODEL_BUCKET"
 bucket_name = "model"
